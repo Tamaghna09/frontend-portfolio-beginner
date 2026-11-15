@@ -1,6 +1,4 @@
-import pypandoc
-
-readme = """# Tamaghna Dhar — Frontend Developer Portfolio
+"""# Tamaghna Dhar — Frontend Developer Portfolio
 
 A personal portfolio website showcasing my background, skills, selected projects, and contact information.
 
@@ -79,6 +77,3 @@ You can reach me through the contact section on the [live portfolio website](htt
 Designed and built by **Tamaghna Dhar**.
 """
 
-output_path = "/mnt/data/README.md"
-pypandoc.convert_text(readme, "md", format="md", outputfile=output_path, extra_args=["--standalone"])
-print(f"Created: {output_path}")
